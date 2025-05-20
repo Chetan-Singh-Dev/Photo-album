@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+.album {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+.photo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-height: 400px;
+}
+form {
+    margin-bottom: 20px;
+}
+.pagination {
+    margin-top: 30px;
+}
+.pagination a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.pagination a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
